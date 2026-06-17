@@ -83,9 +83,10 @@
     }
 
     @media (max-width: 800px) {
-      body {
-        overflow-y: auto;
-      }
+    .collage {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 6px;
+    }
 
       .page {
         grid-template-columns: 1fr;
